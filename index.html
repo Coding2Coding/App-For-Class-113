@@ -1,0 +1,45 @@
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Intro p5.js</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <style type="text/css">
+      h3
+    {
+      font-size: 25px !important;
+    }
+    canvas {
+  	  border:1px solid rgb(204, 232, 255);
+    }
+    body {
+      font-family: Calibri;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+	    <center>
+        <h4 class="btn btn-info">Introduction to p5.js</h4>
+	      <hr>
+        <label>Filter Color: </label>
+        <input id="filterColor" class="form-control" placeholder="Enter Filter Color" style="color: #ffffff; background-color: rgb(232, 214, 255);">
+        <br>
+        <button onclick="filter()" class="btn btn-info">Apply Filter</button>
+        <br>
+        <button onclick="takePicture()" style="margin-top: 20px;" class="btn btn-primary">Take Picture</button>
+      </center>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
+
